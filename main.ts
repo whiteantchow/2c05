@@ -4,6 +4,7 @@ basic.showNumber(3)
 basic.showNumber(4)
 basic.showNumber(5)
 basic.showNumber(6)
+basic.showString("white ant")
 basic.forever(function () {
 	
 })
