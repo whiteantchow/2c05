@@ -1,10 +1,10 @@
-basic.showNumber(1)
-basic.showNumber(2)
-basic.showNumber(3)
-basic.showNumber(4)
-basic.showNumber(5)
-basic.showNumber(6)
-basic.showString("white ant")
-basic.forever(function () {
+let changes = 0
+input.onButtonPressed(Button.A, function () {
+    changes = randint(1, 6)
+})
+input.onButtonPressed(Button.B, function () {
 	
+})
+basic.forever(function () {
+    basic.showNumber(changes)
 })
